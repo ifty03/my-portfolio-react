@@ -43,8 +43,8 @@ const Contact = () => {
         <div className="awesome">
           {/* darkMode */}
           <span style={{color: darkMode?'white': '',fontFamily: "'Poppins', 'sans-serif'",fontSize:"45px"}}>Get in Touch</span>
-          <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"40px"}}>Contact me</span>
-          <div style={{display:"flex",alignItems:"center",gap:"6px",fontFamily: "'Poppins', 'sans-serif'",fontSize:"18px",marginTop:"10px"}}>
+          <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"40px",marginTop:"-10px"}}>Contact me</span>
+          <div style={{display:"flex",alignItems:"center",gap:"6px",fontFamily: "'Poppins', 'sans-serif'",fontSize:"18px",marginTop:"25px",}}>
           <HiOutlineMail style={{fontSize:"23px",color:"blue"}}></HiOutlineMail> ashikulislamifty@gmail.com
           </div>
           <div style={{display:"flex",alignItems:"center",gap:"6px",fontFamily: "'Poppins', 'sans-serif'",fontSize:"18px",marginTop:"10px"}}>
@@ -62,9 +62,9 @@ const Contact = () => {
       {/* right side form */}
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" className="user"  placeholder="Name"/>
-          <input type="email" name="user_email" className="user" placeholder="Email"/>
-          <textarea name="message" className="user" placeholder="Message"/>
+          <input style={{paddingLeft:"10px"}} type="text" name="user_name" className="user"  placeholder="Name"/>
+          <input style={{paddingLeft:"10px"}} type="email" name="user_email" className="user" placeholder="Email"/>
+          <textarea style={{paddingLeft:"10px",paddingTop:"10px"}} name="Type your message" className="user" placeholder="Message"/>
           <input type="submit" value="Send" className="button"/>
           <span>{done && "Thanks for Contacting me"}</span>
           <div

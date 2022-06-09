@@ -28,7 +28,7 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "",fontFamily: "'Poppins', 'sans-serif'" }}>Hey ! I Am</span>
-          <span style={{fontFamily: "'Poppins', 'sans-serif'"}}>Ashikul Islam</span>
+          <span style={{fontFamily: "'Poppins', 'sans-serif'",marginTop:"-17px"}}>Ashikul Islam</span>
           <span  style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"16px"}}>
             Frontend Developer with high level of experience in web designing
             and development, producting the Quality work
@@ -77,7 +77,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="MERN Stack" text2="Developer" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
