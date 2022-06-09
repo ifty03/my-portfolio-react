@@ -7,9 +7,6 @@ import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
-import Github from "../../img/github.png";
-import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { ImLinkedin2 } from 'react-icons/im';
@@ -30,9 +27,9 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
-          <span>
+          <span style={{ color: darkMode ? "white" : "",fontFamily: "'Poppins', 'sans-serif'" }}>Hy! I Am</span>
+          <span style={{fontFamily: "'Poppins', 'sans-serif'"}}>Ashikul Islam</span>
+          <span  style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"16px"}}>
             Frontend Developer with high level of experience in web designing
             and development, producting the Quality work
           </span>
