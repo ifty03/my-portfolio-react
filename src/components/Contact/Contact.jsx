@@ -44,14 +44,14 @@ const Contact = () => {
           {/* darkMode */}
           <span style={{color: darkMode?'white': '',fontFamily: "'Poppins', 'sans-serif'",fontSize:"45px"}}>Get in Touch</span>
           <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"40px"}}>Contact me</span>
-          <div style={{display:"flex",alignItems:"center",gap:"6px",fontFamily: "'Poppins', 'sans-serif'",fontSize:"18px"}}>
-          <HiOutlineMail style={{fontSize:"23px",color:"blue",marginTop:"10px"}}></HiOutlineMail> ashikulislamifty@gmail.com
+          <div style={{display:"flex",alignItems:"center",gap:"6px",fontFamily: "'Poppins', 'sans-serif'",fontSize:"18px",marginTop:"10px"}}>
+          <HiOutlineMail style={{fontSize:"23px",color:"blue"}}></HiOutlineMail> ashikulislamifty@gmail.com
           </div>
-          <div style={{display:"flex",alignItems:"center",gap:"6px",fontFamily: "'Poppins', 'sans-serif'",fontSize:"18px"}}>
-          <IoLogoLinkedin style={{fontSize:"23px",color:"blue",marginTop:"10px"}}></IoLogoLinkedin> ashikulislamifty@gmail.com
+          <div style={{display:"flex",alignItems:"center",gap:"6px",fontFamily: "'Poppins', 'sans-serif'",fontSize:"18px",marginTop:"10px"}}>
+          <IoLogoLinkedin style={{fontSize:"23px",color:"blue"}}></IoLogoLinkedin>   <a style={{textDecoration:"none"}} href="https://www.linkedin.com/in/ashikul-islam-ifty/" target="_blank">https://www.linkedin.com/in/ashikul-islam-ifty/</a>
           </div>
-          <div style={{display:"flex",alignItems:"center",gap:"6px",fontFamily: "'Poppins', 'sans-serif'",fontSize:"18px"}}>
-          <BsGithub style={{fontSize:"23px",color:"blue",marginTop:"10px"}}></BsGithub> ashikulislamifty@gmail.com
+          <div style={{display:"flex",alignItems:"center",gap:"6px",fontFamily: "'Poppins', 'sans-serif'",fontSize:"18px",marginTop:"10px"}}>
+          <BsGithub style={{fontSize:"23px",color:"blue"}}></BsGithub>   <a style={{textDecoration:"none"}} href="https://github.com/ifty03" target="_blank">https://github.com/ifty03</a>
           </div>
           <div
             className="blur s-blur1"

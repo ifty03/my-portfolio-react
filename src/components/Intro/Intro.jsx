@@ -27,7 +27,7 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "",fontFamily: "'Poppins', 'sans-serif'" }}>Hy! I Am</span>
+          <span style={{ color: darkMode ? "white" : "",fontFamily: "'Poppins', 'sans-serif'" }}>Hey ! I Am</span>
           <span style={{fontFamily: "'Poppins', 'sans-serif'"}}>Ashikul Islam</span>
           <span  style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"16px"}}>
             Frontend Developer with high level of experience in web designing
@@ -39,12 +39,11 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          {/* <img src={Github} alt="" /> */}
-          {/* <img src={LinkedIn} alt="" /> */}
-          <BsGithub style={{fontSize:"120px",color:"#5C5CFF"}} />
-          <ImLinkedin2 style={{fontSize:"130px",color:"#5C5CFF"}} />
-          <BsFacebook style={{fontSize:"130px",color:"#5C5CFF"}} />
-          {/* <img src={Instagram} alt="" /> */}
+          
+          <a href="https://github.com/ifty03" target={"_blank"}> <BsGithub style={{fontSize:"120px",color:"#5C5CFF"}} /></a>
+          <a href="https://www.linkedin.com/in/ashikul-islam-ifty/" target={"_blank"}><ImLinkedin2 style={{fontSize:"130px",color:"#5C5CFF"}} /></a>
+          <a href="https://www.facebook.com/profile.php?id=100034520089054" target={"_blank"}><BsFacebook style={{fontSize:"130px",color:"#5C5CFF"}} /></a>
+          
         </div>
       </div>
       {/* right image side */}
