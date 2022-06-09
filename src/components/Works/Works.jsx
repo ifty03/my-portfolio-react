@@ -20,11 +20,11 @@ const Works = () => {
       <div className="w-left">
         <div className="awesome">
           {/* dark Mode */}
-          <span style={{ color: darkMode ? "white" : "" }}>
+          <span style={{ color: darkMode ? "white" : "",fontFamily: "'Poppins', 'sans-serif'" }}>
             Works for All these
           </span>
-          <span>Brands & Clients</span>
-          <spane>
+          <span  style={{fontFamily: "'Poppins', 'sans-serif'"}}>Brands & Clients</span>
+          <spane  style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"16px"}}>
             Lorem ispum is simpley dummy text of printing of printing Lorem
             <br />
             ispum is simpley dummy text of printingLorem ispum is simpley dummy

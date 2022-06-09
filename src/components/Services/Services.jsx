@@ -24,13 +24,13 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
-        <spane>
+        <span style={{ color: darkMode ? "white" : "",fontFamily: "'Poppins', 'sans-serif'",fontSize:"46px" }}>My Awesome</span>
+        <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"41px"}}>services</span>
+        <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"16px"}}>
           Lorem ispum is simpley dummy text of printing of printing Lorem
           <br />
           ispum is simpley dummy text of printing
-        </spane>
+        </span>
         <a href={Resume} download>
           <button className="button" style={{marginTop:"3rem"}}>Download Resume</button>
         </a>

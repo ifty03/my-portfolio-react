@@ -2,6 +2,10 @@ import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
+import { HiOutlineMail } from 'react-icons/hi';
+import { IoLogoLinkedin } from 'react-icons/io';
+import { BsGithub } from 'react-icons/bs';
+import toast from "react-hot-toast";
 const Contact = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -12,16 +16,19 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_2mu5xtl",
-        "template_m5udu2c",
+        "service_0ygnn6s",
+        "template_4jrrjjk",
         form.current,
-        "VLwg1ltOWvnCYAiK_"
+        "6wvh8FFUB27LLLVVJ"
       )
       .then(
         (result) => {
           console.log(result.text);
+          if(result?.text==="OK"){
+            toast.success("Send your message successfully !")
+            e.target.reset();
+          }
           setDone(true);
-          form.reset();
         },
         (error) => {
           console.log(error.text);
@@ -35,8 +42,17 @@ const Contact = () => {
       <div className="w-left">
         <div className="awesome">
           {/* darkMode */}
-          <span style={{color: darkMode?'white': ''}}>Get in Touch</span>
-          <span>Contact me</span>
+          <span style={{color: darkMode?'white': '',fontFamily: "'Poppins', 'sans-serif'",fontSize:"45px"}}>Get in Touch</span>
+          <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"40px"}}>Contact me</span>
+          <div style={{display:"flex",alignItems:"center",gap:"6px",fontFamily: "'Poppins', 'sans-serif'",fontSize:"18px"}}>
+          <HiOutlineMail style={{fontSize:"23px",color:"blue",marginTop:"10px"}}></HiOutlineMail> ashikulislamifty@gmail.com
+          </div>
+          <div style={{display:"flex",alignItems:"center",gap:"6px",fontFamily: "'Poppins', 'sans-serif'",fontSize:"18px"}}>
+          <IoLogoLinkedin style={{fontSize:"23px",color:"blue",marginTop:"10px"}}></IoLogoLinkedin> ashikulislamifty@gmail.com
+          </div>
+          <div style={{display:"flex",alignItems:"center",gap:"6px",fontFamily: "'Poppins', 'sans-serif'",fontSize:"18px"}}>
+          <BsGithub style={{fontSize:"23px",color:"blue",marginTop:"10px"}}></BsGithub> ashikulislamifty@gmail.com
+          </div>
           <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}

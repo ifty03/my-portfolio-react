@@ -37,9 +37,9 @@ const Testimonial = () => {
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>Clients always get </span>
-        <span>Exceptional Work </span>
-        <span>from me...</span>
+        <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"35px"}}>Clients always get </span>
+        <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"35px"}}>Exceptional Work </span>
+        <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"35px"}}>from me...</span>
       <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
@@ -55,7 +55,7 @@ const Testimonial = () => {
             <SwiperSlide key={index}>
               <div className="testimonial">
                 <img src={client.img} alt="" />
-                <span>{client.review}</span>
+                <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"16px"}}>{client.review}</span>
               </div>
             </SwiperSlide>
           );
