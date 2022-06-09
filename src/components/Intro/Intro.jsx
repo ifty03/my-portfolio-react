@@ -12,6 +12,9 @@ import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
+import { ImLinkedin2 } from 'react-icons/im';
+import { BsGithub } from 'react-icons/bs';
+import { BsFacebook } from 'react-icons/bs';
 import { Link } from "react-scroll";
 const Intro = () => {
   // Transition
@@ -39,16 +42,19 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          {/* <img src={Github} alt="" /> */}
+          {/* <img src={LinkedIn} alt="" /> */}
+          <BsGithub style={{fontSize:"120px",color:"#5C5CFF"}} />
+          <ImLinkedin2 style={{fontSize:"130px",color:"#5C5CFF"}} />
+          <BsFacebook style={{fontSize:"130px",color:"#5C5CFF"}} />
+          {/* <img src={Instagram} alt="" /> */}
         </div>
       </div>
       {/* right image side */}
       <div className="i-right">
         <img src={Vector1} alt="" />
-        <img src={Vector2} alt="" />
-        <img src={boy} alt="" />
+        <img style={{width:"700px"}} src={Vector2} alt="" />
+        <img style={{width:"350px"}} src={boy} alt="" />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}
