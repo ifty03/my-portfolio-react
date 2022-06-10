@@ -21,9 +21,9 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "",fontFamily: "'Poppins', 'sans-serif'" }}>
-            Works for All these
+           My Skills
           </span>
-          <span  style={{fontFamily: "'Poppins', 'sans-serif'"}}>Brands & Clients</span>
+          <span  style={{fontFamily: "'Poppins', 'sans-serif'",marginTop:"-15px"}}>Summary</span>
           <spane  style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"16px"}}>
             Lorem ispum is simpley dummy text of printing of printing Lorem
             <br />

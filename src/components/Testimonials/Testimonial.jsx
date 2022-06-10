@@ -44,7 +44,7 @@ const Testimonial = () => {
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
       </div>
-      <Swiper
+      <Swiper className="box"
         // install Swiper modules
         modules={[Pagination]}
         slidesPerView={1}

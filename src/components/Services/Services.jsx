@@ -29,7 +29,7 @@ const Services = () => {
         <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"16px"}}>
           Lorem ispum is simpley dummy text of printing of printing Lorem
           <br />
-          ispum is simpley dummy text of printing
+          ispum is simpley dummy text of printing Lorem ipsum dolor sit,<br /> amet consectetur adipisicing elit. Provident cum repellat <br /> quam vitae ex aut. Quos id obcaecati iusto odio? Consectetur ab nulla <br /> quisquam deserunt veniam expedita culpa. In, ab.
         </span>
         <a href={Resume} download>
           <button className="button" style={{marginTop:"3rem"}}>Download Resume</button>
@@ -46,8 +46,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Expertise"}
+            detail={"HTML5, CSS3 Javascript , React js, SPA, Bootstrap, Tailwind CSS,React Router, Rest API"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +58,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Comfortable"}
+            detail={"Node js, Express, MongoDB, Axios, Firebase, Stripe js"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +70,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Familiar:"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "React Native, Typescript, Next js, mongoose"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

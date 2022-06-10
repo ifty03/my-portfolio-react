@@ -116,6 +116,7 @@
   .works {
     flex-direction: column;
     height: 55rem;
+    margin-top: -7rem;
     padding: 0;
     gap: 5rem;
   }

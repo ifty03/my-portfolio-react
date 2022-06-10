@@ -36,6 +36,7 @@ const Portfolio = () => {
           <img src={HOC} alt="" />
         </SwiperSlide>
       </Swiper>
+      <button className="button" style={{marginTop:"30px"}}>Projects With Details</button>
     </div>
   );
 };

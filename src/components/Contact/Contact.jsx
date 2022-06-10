@@ -3,6 +3,7 @@ import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
 import { HiOutlineMail } from 'react-icons/hi';
+import { RiSendPlaneFill } from 'react-icons/ri';
 import { IoLogoLinkedin } from 'react-icons/io';
 import { BsGithub } from 'react-icons/bs';
 import toast from "react-hot-toast";
@@ -65,7 +66,7 @@ const Contact = () => {
           <input style={{paddingLeft:"10px"}} type="text" name="user_name" className="user"  placeholder="Name"/>
           <input style={{paddingLeft:"10px"}} type="email" name="user_email" className="user" placeholder="Email"/>
           <textarea style={{paddingLeft:"10px",paddingTop:"10px"}} name="Type your message" className="user" placeholder="Message"/>
-          <input type="submit" value="Send" className="button"/>
+          <input type="submit" value={`Send`} className="button" />
           <span>{done && "Thanks for Contacting me"}</span>
           <div
             className="blur c-blur1"

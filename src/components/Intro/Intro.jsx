@@ -27,7 +27,7 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "",fontFamily: "'Poppins', 'sans-serif'" }}>Hey ! I Am</span>
+          <span style={{ color: darkMode ? "white" : "",fontFamily: "'Poppins', 'sans-serif'", }}>Hey, I Am</span>
           <span style={{fontFamily: "'Poppins', 'sans-serif'",marginTop:"-17px"}}>Ashikul Islam</span>
           <span  style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"16px"}}>
             Frontend Developer with high level of experience in web designing

@@ -4,6 +4,7 @@
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  margin-top: 9rem;
 
 }
 /* heading */
@@ -38,3 +39,9 @@
   border-radius: 19px;
 }
 
+@media screen and (max-width: 480px){
+  .portfolio{
+
+    margin-top: -8rem;
+  }
+}

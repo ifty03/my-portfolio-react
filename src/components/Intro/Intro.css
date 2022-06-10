@@ -94,6 +94,28 @@
 }
 
 @media screen and (max-width: 480px) {
+  .i-right{
+    margin-top: -10rem;
+  }
+  .i-icons {
+    margin-top: 1rem;
+    margin-left: -13px;
+    display: flex;
+    gap: 0rem;
+  }
+  .Intro{
+    margin-top: -10px;
+  }
+  .i-name > :nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .i-name > :nth-child(2) {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 2rem;
+  }
   .Intro {
     flex-direction: column;
     gap: 7rem;
