@@ -15,22 +15,22 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "I have a few Dots around the house. One decided to have an attitude and she had to be replaced. Problem with voice recognition. I still pay the bills around here so she is not here any more!! HaHa!! I replaced her with the new Echo Dot 4th Gen in Blue. How pretty",
     },
     {
       img: profilePic2,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Much smaller than expected but the sound is phenomenal. I have almost every single version of the Echo and Echo dot in my house for an easy to use Spotify music setup to surround my upstairs with music but this little orb is the best sounding of the lot.",
     },
     {
       img: profilePic3,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        " Aesthetics. This is personal opinion of course, but I think I prefer the smaller, less noticeable shape of the previous models. This one is closer to a softball, and stands out much more. Sure it might be better for creating sound, but I don't use Dots for music listening anyway. .",
     },
     {
       img: profilePic4,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Price. The old Gen 3 Dot is now $10 cheaper than this version, and it is really hard for me to justify choosing this Gen 4. It really seems like you are just paying for the new shape and very slightly better sound, but that doesn't currently seem worth it to me. ",
     },
   ];
 
