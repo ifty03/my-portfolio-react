@@ -3,7 +3,9 @@ import React from "react";
 const Blogs = () => {
   return (
     <div>
-      <h3>This is Blogs section</h3>
+      <h3 style={{ fontWeight: "700", fontSize: "50px" }}>
+        Now Blog is Writing.......
+      </h3>
     </div>
   );
 };

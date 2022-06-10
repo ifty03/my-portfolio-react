@@ -15,6 +15,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Projects from "./components/Projects/Projects";
 import ProductDetails from "./components/Projects/ProductDetails";
+import Blogs from "./components/Blogs/Blogs";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -31,6 +32,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
         <Route path="/project/:id" element={<ProductDetails />}></Route>
+        <Route path="/blogs" element={<Blogs />}></Route>
       </Routes>
       <Footer />
       <Toaster />

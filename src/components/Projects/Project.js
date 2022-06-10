@@ -4,7 +4,7 @@ import { HiCode } from "react-icons/hi";
 import { Link } from "react-router-dom";
 
 const Project = ({ project }) => {
-  const { img, name, description, uses, _id } = project;
+  const { img, name, date, uses, _id } = project;
   console.log(img);
 
   return (
@@ -13,7 +13,10 @@ const Project = ({ project }) => {
         <img class="hero-profile-img" src={img} alt="" />
         <div class="hero-description-bk"></div>
         <div class="hero-logo">
-          <a href="">
+          <a
+            href="https://www.linkedin.com/in/ashikul-islam-ifty-9587a5228/"
+            target="_blank"
+          >
             <img
               src="https://iconape.com/wp-content/files/yd/367773/svg/logo-linkedin-logo-icon-png-svg.png"
               alt=""
@@ -35,7 +38,7 @@ const Project = ({ project }) => {
           </p>
         </div>
         <div class="hero-date">
-          <p>20.02.2019</p>
+          <p>{date}</p>
         </div>
         <div class="hero-btn">
           <Link className="link" to={`/project/${_id}`}>

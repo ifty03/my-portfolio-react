@@ -1,13 +1,14 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Project from "./Project";
 import "./Projects.css";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/project")
+    fetch("https://pacific-plateau-99251.herokuapp.com/project")
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
@@ -19,6 +20,18 @@ const Projects = () => {
           <Project project={project}></Project>
         ))}
       </div>
+      <Link
+        style={{
+          textDecoration: "none",
+          margin: "15px auto",
+          display: "block",
+          width: "fit-content",
+        }}
+        className="button"
+        to="/"
+      >
+        Back To Home
+      </Link>
     </div>
   );
 };
