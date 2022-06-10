@@ -7,6 +7,7 @@ import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
 import { themeContext } from "../../Context";
+import { Link } from "react-router-dom";
 const Portfolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -36,7 +37,7 @@ const Portfolio = () => {
           <img src={HOC} alt="" />
         </SwiperSlide>
       </Swiper>
-      <button className="button" style={{marginTop:"30px"}}>Projects With Details</button>
+      <Link to="/projects" className="button" style={{marginTop:"30px",textDecoration:"none"}}>Projects With Details</Link>
     </div>
   );
 };

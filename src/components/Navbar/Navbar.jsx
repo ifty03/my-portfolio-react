@@ -2,24 +2,23 @@ import React from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 const navbar = () => {
   return (
     <div className="n-wrapper" id="Navbar">
       {/* left */}
       <div className="n-left">
-        <div style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"22px"}} className="n-name">Andrew</div>
+        <div>
+          <NavLink  style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"22px",textDecoration:"none"}} className="n-name" to="/">Ashik</NavLink>
+        </div>
         <Toggle />
       </div>
       {/* right */}
       <div className="n-right">
         <div className="n-list">
           <ul style={{ listStyleType: "none",}}>
-            <li style={{fontFamily: "'Poppins', 'sans-serif'"}}>
-              <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
-                Home
-              </Link>
-            </li>
+           
             <li style={{fontFamily: "'Poppins', 'sans-serif'"}}>
               <Link to="services" spy={true} smooth={true}>
                 Serivces
@@ -42,6 +41,8 @@ const navbar = () => {
             </li>
           </ul>
         </div>
+        <NavLink to="/projects" className="p-route">Projects</NavLink>
+        <NavLink to="/Blogs" className="b-route" >Blogs</NavLink>
         <Link to="contact" spy={true} smooth={true}>
         <button className="button n-button">Contact</button>
         </Link>

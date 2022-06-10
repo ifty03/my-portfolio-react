@@ -11,6 +11,9 @@ import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
 import { Toaster } from "react-hot-toast";
+import { Route, Routes } from "react-router-dom";
+import Home from "./Home";
+import Projects from "./components/Projects/Projects";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -23,13 +26,10 @@ function App() {
       }}
     >
       <Navbar />
-      <Intro />
-      <Services />
-      <Experience />
-      <Works />
-      <Portfolio />
-      <Testimonial />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/projects" element={<Projects />}></Route>
+      </Routes>
       <Footer />
       <Toaster />
     </div>
