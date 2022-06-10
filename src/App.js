@@ -14,6 +14,7 @@ import { Toaster } from "react-hot-toast";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Projects from "./components/Projects/Projects";
+import ProductDetails from "./components/Projects/ProductDetails";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -29,6 +30,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
+        <Route path="/project/:id" element={<ProductDetails />}></Route>
       </Routes>
       <Footer />
       <Toaster />

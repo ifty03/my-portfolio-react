@@ -1,20 +1,36 @@
 import React from "react";
 import "./Project.css";
+import { HiCode } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
-const Project = () => {
+const Project = ({ project }) => {
+  const { img, name, description, uses, _id } = project;
+  console.log(img);
+
   return (
     <div>
-      <div>
-        <img
-          className="project-img"
-          src="https://media.cntraveler.com/photos/628fd5ceeccad063f926fe99/master/w_3936,h_2624,c_limit/Plitvice-Lakes-Croatia-GettyImages-1080935866.jpg"
-          alt=""
-        />
-      </div>
-      <h2>Acme Tools</h2>
-      <div>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas iure odio
-        repudiandae commodi alias.
+      <div class="first hero">
+        <img class="hero-profile-img" src={img} alt="" />
+        <div class="hero-description-bk"></div>
+        <div class="hero-logo">
+          <a href="">
+            <img
+              src="https://iconape.com/wp-content/files/yd/367773/svg/logo-linkedin-logo-icon-png-svg.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="hero-description">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor</p>
+        </div>
+        <div class="hero-date">
+          <p>20.02.2019</p>
+        </div>
+        <div class="hero-btn">
+          <Link className="link" to={`/project/${_id}`}>
+            Details
+          </Link>
+        </div>
       </div>
     </div>
   );

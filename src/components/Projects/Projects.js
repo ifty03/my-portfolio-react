@@ -1,16 +1,24 @@
 import React from "react";
+import { useEffect } from "react";
+import { useState } from "react";
 import Project from "./Project";
 import "./Projects.css";
 
 const Projects = () => {
+  const [projects, setProjects] = useState([]);
+  useEffect(() => {
+    fetch("http://localhost:5000/project")
+      .then((res) => res.json())
+      .then((data) => setProjects(data));
+  }, []);
+  console.log(projects);
   return (
-    <div style={{ minHeight: "100vh" }}>
+    <div style={{ minHeight: "1200px" }}>
       <h2>This is projects section</h2>
       <div className="projects">
-        <Project />
-        <Project />
-        <Project />
-        <Project />
+        {projects?.map((project) => (
+          <Project project={project}></Project>
+        ))}
       </div>
     </div>
   );
