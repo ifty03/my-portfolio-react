@@ -100,3 +100,9 @@
     top:5px;
     right:5px;
   }
+  @media screen and (max-width: 480px){
+    .hero{
+        margin: 0px;
+        margin-bottom: 40px;
+    }
+  }

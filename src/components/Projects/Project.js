@@ -21,7 +21,18 @@ const Project = ({ project }) => {
           </a>
         </div>
         <div class="hero-description">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor</p>
+          <p
+            style={{
+              fontWeight: "600",
+              fontSize: "25px",
+              backgroundColor: "black",
+              borderRadius: "20px 0px 20px 0px",
+              padding: "5px 10px",
+              fontFamily: "'Poppins', 'sans-serif'",
+            }}
+          >
+            {name}
+          </p>
         </div>
         <div class="hero-date">
           <p>20.02.2019</p>

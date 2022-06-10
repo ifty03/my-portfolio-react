@@ -14,7 +14,6 @@ const Projects = () => {
   console.log(projects);
   return (
     <div style={{ minHeight: "1200px" }}>
-      <h2>This is projects section</h2>
       <div className="projects">
         {projects?.map((project) => (
           <Project project={project}></Project>
