@@ -27,9 +27,9 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "",fontFamily: "'Poppins', 'sans-serif'",fontSize:"46px" }}>My Development</span>
         <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"41px"}}>Skills</span>
         <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"16px"}}>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing Lorem ipsum dolor sit,<br /> amet consectetur adipisicing elit. Provident cum repellat <br /> quam vitae ex aut. Quos id obcaecati iusto odio? Consectetur ab nulla <br /> quisquam deserunt veniam expedita culpa. In, ab.
+          <p><span style={{fontWeight:"700"}}>Expertise: </span>HTML5, CSS3 Javascript , React js,  SPA, Bootstrap, Tailwind CSS,  <br /> React Router, Rest API </p>
+          <p><span style={{fontWeight:"700"}}>Comfortable: </span>Node js, Express, MongoDB, Axios, <br /> Firebase, Stripe js</p>
+          <p><span style={{fontWeight:"700"}}>Familiar: </span>React Native, Typescript, Next js, mongoose</p>
         </span>
         <a href={Resume} download>
           <button className="button" style={{marginTop:"3rem"}}>Download Resume</button>

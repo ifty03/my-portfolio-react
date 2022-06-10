@@ -24,17 +24,12 @@ const Works = () => {
            My Skills
           </span>
           <span  style={{fontFamily: "'Poppins', 'sans-serif'",marginTop:"-15px"}}>Summary</span>
-          <spane  style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"16px"}}>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
-            <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
-          </spane>
-          <Link to="contact" smooth={true} spy={true}>
+          <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"16px"}}>
+          <p><span style={{fontWeight:"700"}}>Expertise: </span>HTML5, CSS3 Javascript , React js,  SPA, Bootstrap,<br /> Tailwind CSS,React Router, Rest API </p>
+          <p><span style={{fontWeight:"700"}}>Comfortable: </span>Node js, Express, MongoDB, Axios, <br /> Firebase, Stripe js</p>
+          <p><span style={{fontWeight:"700"}}>Familiar: </span>React Native, Typescript, Next js, mongoose</p>
+        </span>
+          <Link style={{marginTop:"-50px"}} to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>
           <div

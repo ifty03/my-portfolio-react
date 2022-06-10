@@ -30,8 +30,8 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "",fontFamily: "'Poppins', 'sans-serif'", }}>Hey, I Am</span>
           <span style={{fontFamily: "'Poppins', 'sans-serif'",marginTop:"-17px"}}>Ashikul Islam</span>
           <span  style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"16px"}}>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+          To join an organization that offers a constructive atmosphere to enhance my qualities with the
+opportunities at hand and build up my experiences further in order to work diligently in the future.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>

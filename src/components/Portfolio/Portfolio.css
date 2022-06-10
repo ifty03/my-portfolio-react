@@ -42,6 +42,9 @@
 @media screen and (max-width: 480px){
   .portfolio{
 
-    margin-top: -8rem;
+    margin-top: -4rem;
+  }
+  .w-right{
+    margin-top: -2rem;
   }
 }
