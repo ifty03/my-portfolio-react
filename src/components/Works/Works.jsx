@@ -49,19 +49,19 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <img style={{width:"150%",borderRadius:"100%"}}  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNtKZd3wnZhyKXrJaqZBbUqmptUAyaoHaXeQ&usqp=CAU" alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img style={{width:"150%",borderRadius:"100%"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNvlAM2kg5H1ufCzBW7GjzCo77Ys_neYxOHQ&usqp=CAU" alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img style={{width:"150%",borderRadius:"100%"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpncgSCeQyGHg-xSgPt9qJ15pr8wLKFansEA&usqp=CAU" alt="" />
           </div>{" "}
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img style={{width:"110%"}} src={Shopify} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img style={{width:"110%"}} src={Facebook} alt="" />
           </div>
         </motion.div>
         {/* background Circles */}
