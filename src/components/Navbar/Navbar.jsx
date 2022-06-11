@@ -43,9 +43,9 @@ const navbar = () => {
         </div>
         <NavLink to="/projects" className="p-route" >Projects</NavLink>
         <NavLink to="/Blogs" className="b-route" >Blogs</NavLink>
-        <Link to="contact" spy={true} smooth={true}>
-        <button className="button n-button">Contact</button>
-        </Link>
+        <NavLink  to="/aboutMe">
+        <button className="button n-button">About</button>
+        </NavLink>
       </div>
     </div>
   );

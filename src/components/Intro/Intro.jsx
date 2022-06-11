@@ -30,8 +30,8 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "",fontFamily: "'Poppins', 'sans-serif'", }}>Hey, I Am</span>
           <span style={{fontFamily: "'Poppins', 'sans-serif'",marginTop:"-17px"}}>Ashikul Islam</span>
           <span  style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"16px"}}>
-          To join an organization that offers a constructive atmosphere to enhance my qualities with the
-opportunities at hand and build up my experiences further in order to work diligently in the future.
+          I'm a React JS developer. I always want to make a website good-looking. Always looking for new technology. I have a lot of interest in UI. That's why I learned to react to js to make a user satisfied.
+I started learning to react a few months ago and I love using react on website because React is to be fast, scalable, and simple. It works only on user interfaces in the application..
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>

@@ -16,6 +16,7 @@ import Home from "./Home";
 import Projects from "./components/Projects/Projects";
 import ProductDetails from "./components/Projects/ProductDetails";
 import Blogs from "./components/Blogs/Blogs";
+import AboutMe from "./components/AboutMe/AboutMe";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -33,6 +34,7 @@ function App() {
         <Route path="/projects" element={<Projects />}></Route>
         <Route path="/project/:id" element={<ProductDetails />}></Route>
         <Route path="/blogs" element={<Blogs />}></Route>
+        <Route path="/aboutMe" element={<AboutMe />}></Route>
       </Routes>
       <Footer />
       <Toaster />

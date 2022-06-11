@@ -26,10 +26,9 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "",fontFamily: "'Poppins', 'sans-serif'",fontSize:"46px" }}>My Development</span>
         <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"41px"}}>Skills</span>
-        <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"16px"}}>
-          <p><span style={{fontWeight:"700"}}>Expertise: </span>HTML5, CSS3 Javascript , React js,  SPA, Bootstrap, Tailwind CSS,  <br /> React Router, Rest API </p>
-          <p><span style={{fontWeight:"700"}}>Comfortable: </span>Node js, Express, MongoDB, Axios, <br /> Firebase, Stripe js</p>
-          <p><span style={{fontWeight:"700"}}>Familiar: </span>React Native, Typescript, Next js, mongoose</p>
+        <span style={{fontFamily: "'Poppins', 'sans-serif'",fontSize:"16px",marginTop:"-8px"}}>
+          <p>Skill enhances to build the professional network, better communication,<br /> time management and negotiation skills.That's <br /> why I always force myself to build my skill and I hope <br /> I will do it because I'm focused on my work.</p>
+          
         </span>
         <a href={Resume} download>
           <button className="button" style={{marginTop:"3rem"}}>Download Resume</button>
