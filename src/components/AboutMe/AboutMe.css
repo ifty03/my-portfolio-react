@@ -1,0 +1,35 @@
+.about-container{
+    display: flex;
+    gap: 40px;
+    margin-top: 4rem;
+}
+.image{
+width: 50%;
+}
+.text{
+    width: 50%;
+}
+
+.about-main{
+    min-height: 100vh;
+}
+@media screen and (max-width: 480px) {
+    .about-container{
+        flex-direction: column;
+        margin-top: -1rem;
+        gap: 140px;
+        
+    }
+    .image{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .text{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .about-main{
+        min-height: 1000px;
+    }
+    
+}
