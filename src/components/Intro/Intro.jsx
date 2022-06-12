@@ -13,6 +13,7 @@ import { ImLinkedin2 } from 'react-icons/im';
 import { BsGithub } from 'react-icons/bs';
 import { BsFacebook } from 'react-icons/bs';
 import { Link } from "react-scroll";
+import Resume from "../Services/Ashikul-islam.pdf";
 const Intro = () => {
   // Transition
   const transition = { duration: 2, type: "spring" };
@@ -34,9 +35,14 @@ const Intro = () => {
 I started learning to react a few months ago and I love using react on website because React is to be fast, scalable, and simple. It works only on user interfaces in the application.
           </span>
         </div>
-        <Link to="contact" smooth={true} spy={true}>
+        {/* <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>
-        </Link>
+        </Link> */}
+        <a href={Resume} download>
+            <button className="button" >
+              Download Resume
+            </button>
+          </a>
         {/* social icons */}
         <div className="i-icons">
           
