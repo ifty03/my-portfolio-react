@@ -42,7 +42,7 @@ const navbar = () => {
           </ul>
         </div>
         <NavLink to="/projects" className="p-route" >Projects</NavLink>
-        <NavLink to="/Blogs" className="b-route" >Blogs</NavLink>
+        <NavLink to="/" className="b-route" >Home</NavLink>
         <NavLink  to="/aboutMe">
         <button className="button n-button">About</button>
         </NavLink>
