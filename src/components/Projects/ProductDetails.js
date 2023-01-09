@@ -6,7 +6,9 @@ const ProductDetails = () => {
   const { id } = useParams();
   const [project, setProject] = useState({});
   useEffect(() => {
-    fetch(`https://pacific-plateau-99251.herokuapp.com/project/${id}`)
+    fetch(
+      `https://personal-portfolio-server-production.up.railway.app/project/${id}`
+    )
       .then((res) => res.json())
       .then((data) => setProject(data));
   }, [id]);

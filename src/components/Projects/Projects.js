@@ -8,7 +8,7 @@ import "./Projects.css";
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch("https://pacific-plateau-99251.herokuapp.com/project")
+    fetch("https://personal-portfolio-server-production.up.railway.app/project")
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
